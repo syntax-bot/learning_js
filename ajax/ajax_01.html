@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajax_01.css">
+</head>
+<body>
+    <div id="importing_data">
+        <p>
+            `imported data onclicking button will display here`
+        </p>
+        <button onload="()=>{console.log('loadworking')}" onmouseover="mOver(this)" onmouseout="mOut(this)">mouse over or out for fetching file</button>
+    </div>
+        
+    <button id="ajaxButton" type="button">Make a request</button>
+    <button id="ajaxButton_01" type="button">Make a request for xml</button>
+
+    <br>
+
+    <div id="dsendingbox">
+        <label>
+            Your name:
+            <input type="text" id="ajaxTextbox03"/>
+        </label>
+          <span id="ajaxButton03" style="cursor: pointer; text-decoration: underline">
+            Make a request
+          </span>
+
+          <p id="responsedisplay">Your response data will be displayed here</p>
+    </div>
+    <script src="ajax_01.js"></script>
+</body>
+</html>

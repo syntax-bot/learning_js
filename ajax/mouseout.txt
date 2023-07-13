@@ -1,0 +1,2 @@
+{"data":"text changed,mouse out button data displaying using fetch API"}
+

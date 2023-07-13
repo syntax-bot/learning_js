@@ -1,0 +1,18 @@
+#jokearea {
+    background-color: aqua;
+    padding: 5%;
+
+}
+.btn:hover{
+    border: 3px; 
+    border-radius: 3px;
+    background-color: black;
+    color: aliceblue;
+
+}
+#btnbox{
+    display:flex;
+}
+#btnright{
+    margin-left: auto;
+}

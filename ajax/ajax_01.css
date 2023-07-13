@@ -1,0 +1,14 @@
+#ajaxButton,#ajaxButton01{
+    margin-top: 10px;
+    background-color: rgb(53, 192, 220);
+}
+
+#dsendingbox{
+    margin-top: 50px;
+}
+
+#responsedisplay{
+    border:2px solid blueviolet;
+    padding: 10px;
+    text-align: center;
+}
