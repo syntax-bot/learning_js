@@ -35,3 +35,11 @@ function C() {
   
 let o = new C();
 console.log(o.a); // 38
+
+//points to current object only in object function
+const obj = {
+    a: this,
+  };
+  
+console.log(obj.a ===globalThis); // true
+
